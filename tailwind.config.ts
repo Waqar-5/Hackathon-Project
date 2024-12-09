@@ -1,3 +1,4 @@
+import { Montserrat } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -9,8 +10,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+       fontfamily: {
+        font:"Poppins",
+        font2: "Inter",
+        montserrat: 'Montserrat', // Add this line
+       }
+
       },
     },
   },

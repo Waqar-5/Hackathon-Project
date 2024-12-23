@@ -2,9 +2,6 @@ import Signup from '@/components/Signup'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { FaSearch } from 'react-icons/fa'
-import { FaRegCircleUser } from 'react-icons/fa6'
-import { IoCartOutline } from 'react-icons/io5'
 
 const AboutMe = () => {
   return (

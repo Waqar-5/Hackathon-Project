@@ -1,6 +1,5 @@
-
 import React from 'react'
-import { FaSearch, FaSearchengin } from 'react-icons/fa'
+import { FaSearch,} from 'react-icons/fa'
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegCircleUser } from "react-icons/fa6";
 

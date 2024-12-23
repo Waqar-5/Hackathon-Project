@@ -16,7 +16,7 @@ const Footer = () => {
             <h1><Link href={'/'}>Best sellers</Link></h1>
             <h1><Link href={'/'}>Recently viewed</Link></h1>
             <h1><Link href={'/'}>Popular this week</Link></h1>
-            <h1><Link href={'/Allprodcuts'}>All Products</Link></h1>
+            <h1><Link href={'/Allproducts'}>All Products</Link></h1>
           </div>
         </div>
 

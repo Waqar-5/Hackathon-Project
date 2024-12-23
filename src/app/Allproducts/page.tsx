@@ -70,7 +70,7 @@ const AllProducts = () => {
     <div className="py-8">
       {/* Header Image */}
       <div className="w-full">
-        <img
+        <Image
           src="/Frame 143.png"
           alt="Header"
           className="w-full object-cover h-40 sm:h-64 md:h-28"

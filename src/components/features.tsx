@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 import React from 'react'
 
@@ -31,7 +32,7 @@ const Features = () => {
 
         {/* Image Section */}
         <div className='w-full lg:w-[50%] mt-8 lg:mt-0 flex justify-center'>
-          <img
+          <Image
             src='/pic.png'
             alt='image'
             width={630}

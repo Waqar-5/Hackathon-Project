@@ -34,7 +34,7 @@ const FamousProducts = () => {
 
         {/* Box 3 */}
         <div className='flex flex-col items-center cursor-pointer justify-center w-full max-w-[250px] h-[200px] bg-[#F9F9F9] rounded-lg p-4 transition-transform duration-300 hover:scale-105'>
-          <Image src="/pur.png" alt="purchase" className='h-[24px] w-[24px] mb-4' />
+          <Image src="/pur.png" alt="purchase" className='h-[24px] w-[24px] mb-4' width={24} height={24} />
           <h2 className='font-normal text-[19px] text-center'>Unbeatable prices</h2>
           <p className='text-[16px] text-center'>
             For our materials and quality you won’t find better prices anywhere

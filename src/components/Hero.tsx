@@ -6,7 +6,7 @@ const Hero = () => {
     <div>
       <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-12 bg-[#2A254B] w-full max-w-[1440px] mx-auto mt-9">
         {/* Text Section */}
-        <div className="flex-1 flex flex-col justify-center items-center md:items-start text-center md:text-left">
+        <div className="flex-1 flex flex-col justify-center items-center md:items-start text-center md:text-left space-y-28">
           <h2 className="text-2xl md:text-4xl font-bold text-[#ffffff] mb-4">
             The furniture brand for the future, with timeless designs
           </h2>
@@ -25,7 +25,7 @@ const Hero = () => {
           <Image
             src="/chair.png" 
             alt="Chair"
-            width={400}
+            width={600}
             height={500}
             className="rounded-lg shadow-lg object-cover transition-transform duration-150 hover:scale-105 cursor-pointer"
           />

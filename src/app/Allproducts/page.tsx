@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import React from "react";
 import { FaCaretDown } from "react-icons/fa";
@@ -7,17 +8,17 @@ const AllProducts = () => {
     {
       name: "The Dandy Chair",
       price: "£250",
-      image: "/chair.png",
+      image: "/Photo-4.png",
     },
     {
       name: "Rustic Vase Set",
       price: "£155",
-      image: "/vase.png",
+      image: "/Vase.png",
     },
     {
       name: "The Silky Vase",
       price: "£125",
-      image: "/silky.png",
+      image: "/Silky.png",
     },
     {
       name: "The Lucy Lamp",
@@ -47,17 +48,17 @@ const AllProducts = () => {
     {
       name: "The Dandy Chair",
       price: "£250",
-      image: "/chair.png",
+      image: "/Photo-4.png",
     },
     {
       name: "Rustic Vase Set",
       price: "£155",
-      image: "/vase.png",
+      image: "/Vase.png",
     },
     {
       name: "The Silky Vase",
       price: "£125",
-      image: "/silky.png",
+      image: "/Silky.png",
     },
     {
       name: "The Lucy Lamp",
@@ -73,7 +74,10 @@ const AllProducts = () => {
         <Image
           src="/Frame 143.png"
           alt="Header"
-          className="w-full object-cover h-40 sm:h-64 md:h-28"
+          className="w-full object-cover h-40 sm:h-64 md:h-28
+          "
+          width={24}
+          height={24}
         />
       </div>
 
@@ -112,15 +116,17 @@ const AllProducts = () => {
           {products.map((product, index) => (
             <div
               key={index}
-              className="relative group p-4 rounded-lg shadow-md transition-transform duration-500 ease-in-out transform hover:scale-105"
+              className="relative group p-4 transition-transform duration-500 ease-in-out transform hover:scale-105"
             >
               {/* Product Image */}
               <div className="relative w-full h-64 overflow-hidden rounded-md">
                 <Image
                   src={product.image}
                   alt={product.name}
-                  fill
+                  // fill
                   className="rounded-md object-cover transition-transform duration-500 group-hover:scale-110"
+                  width={380}
+                  height={580}
                 />
               </div>
               {/* Product Details */}

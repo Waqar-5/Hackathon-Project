@@ -27,7 +27,7 @@ const Ceramic = () => {
         {/* Item 2 */}
         <div className="flex flex-col items-center">
           <Image
-            src="/vase.png"
+            src="/Vase.png"
             alt="vase"
             width={305}
             height={375}
@@ -40,7 +40,7 @@ const Ceramic = () => {
         {/* Item 3 */}
         <div className="flex flex-col items-center">
           <Image
-            src="/silky.png"
+            src="/Silky.png"
             alt="silky"
             width={305}
             height={375}
